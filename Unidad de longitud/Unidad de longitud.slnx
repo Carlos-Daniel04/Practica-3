@@ -4,5 +4,6 @@
   <Project Path="../Numeros Primos/Numeros Primos.csproj" />
   <Project Path="../Palabra Palindroma/Palabra Palindroma.csproj" />
   <Project Path="../Palabras en una oracion/Palabras en una oracion.csproj" />
+  <Project Path="../Registro de alumnos/Registro de alumnos.csproj" />
   <Project Path="Unidad de longitud/Unidad de longitud.csproj" />
 </Solution>
