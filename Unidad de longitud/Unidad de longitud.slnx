@@ -1,9 +1,9 @@
 <Solution>
-  <Project Path="../Inicio Y Fin/Inicio Y Fin.csproj" />
-  <Project Path="../Numeros Perfectos/Numeros Perfectos.csproj" />
-  <Project Path="../Numeros Primos/Numeros Primos.csproj" />
-  <Project Path="../Palabra Palindroma/Palabra Palindroma.csproj" />
-  <Project Path="../Palabras en una oracion/Palabras en una oracion.csproj" />
-  <Project Path="../Registro de alumnos/Registro de alumnos.csproj" />
-  <Project Path="Unidad de longitud/Unidad de longitud.csproj" />
+  <Project Path="../Inicio Y Fin/Inicio Y Fin.csproj" Id="c8738aa8-46d1-4447-a8b4-49a570ca3972" />
+  <Project Path="../Numeros Perfectos/Numeros Perfectos.csproj" Id="10cd4f5b-bde9-4c76-a958-1a925bcf3b40" />
+  <Project Path="../Numeros Primos/Numeros Primos.csproj" Id="0ca43ac7-c6d9-447d-bbcc-6add2b8f9fe6" />
+  <Project Path="../Palabra Palindroma/Palabra Palindroma.csproj" Id="e60939d1-1f6a-432f-82af-0c4505a7c3e7" />
+  <Project Path="../Palabras en una oracion/Palabras en una oracion.csproj" Id="cf7a2a29-da06-4720-8fe3-21535e1bb4ec" />
+  <Project Path="../Registro de alumnos/Registro de alumnos.csproj" Id="d74c5e73-d031-4952-87d9-2c133dff0419" />
+  <Project Path="Unidad de longitud/Unidad de longitud.csproj" Id="d7d4b679-2610-4129-8d09-63968e3e1b01" />
 </Solution>

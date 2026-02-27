@@ -41,53 +41,54 @@
             this.lblbuscarcod = new System.Windows.Forms.Label();
             this.txtBuscarcod = new System.Windows.Forms.TextBox();
             this.dtgalumnos = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtgalumnos)).BeginInit();
             this.SuspendLayout();
             // 
             // lblcodigo
             // 
             this.lblcodigo.AutoSize = true;
-            this.lblcodigo.Location = new System.Drawing.Point(73, 63);
+            this.lblcodigo.Location = new System.Drawing.Point(4, 63);
             this.lblcodigo.Name = "lblcodigo";
-            this.lblcodigo.Size = new System.Drawing.Size(57, 20);
+            this.lblcodigo.Size = new System.Drawing.Size(129, 20);
             this.lblcodigo.TabIndex = 0;
-            this.lblcodigo.Text = "Codigo:";
+            this.lblcodigo.Text = "Codigo del Alumno:";
             // 
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
-            this.lblnombre.Location = new System.Drawing.Point(69, 114);
+            this.lblnombre.Location = new System.Drawing.Point(10, 111);
             this.lblnombre.Name = "lblnombre";
-            this.lblnombre.Size = new System.Drawing.Size(61, 20);
+            this.lblnombre.Size = new System.Drawing.Size(133, 20);
             this.lblnombre.TabIndex = 1;
-            this.lblnombre.Text = "Nombre:";
+            this.lblnombre.Text = "Nombre del Alumno:";
             // 
             // lblpromedio
             // 
             this.lblpromedio.AutoSize = true;
-            this.lblpromedio.Location = new System.Drawing.Point(58, 167);
+            this.lblpromedio.Location = new System.Drawing.Point(10, 167);
             this.lblpromedio.Name = "lblpromedio";
-            this.lblpromedio.Size = new System.Drawing.Size(72, 20);
+            this.lblpromedio.Size = new System.Drawing.Size(144, 20);
             this.lblpromedio.TabIndex = 2;
-            this.lblpromedio.Text = "Pormedio:";
+            this.lblpromedio.Text = "Pormedio del Alumno:";
             // 
             // txtcodigo
             // 
-            this.txtcodigo.Location = new System.Drawing.Point(161, 63);
+            this.txtcodigo.Location = new System.Drawing.Point(133, 63);
             this.txtcodigo.Name = "txtcodigo";
             this.txtcodigo.Size = new System.Drawing.Size(136, 26);
             this.txtcodigo.TabIndex = 3;
             // 
             // txtnombre
             // 
-            this.txtnombre.Location = new System.Drawing.Point(161, 111);
+            this.txtnombre.Location = new System.Drawing.Point(149, 111);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(202, 26);
             this.txtnombre.TabIndex = 4;
             // 
             // txtpromedio
             // 
-            this.txtpromedio.Location = new System.Drawing.Point(161, 161);
+            this.txtpromedio.Location = new System.Drawing.Point(161, 167);
             this.txtpromedio.Name = "txtpromedio";
             this.txtpromedio.Size = new System.Drawing.Size(136, 26);
             this.txtpromedio.TabIndex = 5;
@@ -124,7 +125,7 @@
             // 
             // btnbuscar
             // 
-            this.btnbuscar.Location = new System.Drawing.Point(357, 296);
+            this.btnbuscar.Location = new System.Drawing.Point(512, 111);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(75, 33);
             this.btnbuscar.TabIndex = 9;
@@ -135,7 +136,7 @@
             // lblbuscarcod
             // 
             this.lblbuscarcod.AutoSize = true;
-            this.lblbuscarcod.Location = new System.Drawing.Point(13, 298);
+            this.lblbuscarcod.Location = new System.Drawing.Point(404, 66);
             this.lblbuscarcod.Name = "lblbuscarcod";
             this.lblbuscarcod.Size = new System.Drawing.Size(124, 20);
             this.lblbuscarcod.TabIndex = 10;
@@ -143,25 +144,37 @@
             // 
             // txtBuscarcod
             // 
-            this.txtBuscarcod.Location = new System.Drawing.Point(161, 298);
+            this.txtBuscarcod.Location = new System.Drawing.Point(534, 66);
             this.txtBuscarcod.Name = "txtBuscarcod";
             this.txtBuscarcod.Size = new System.Drawing.Size(143, 26);
             this.txtBuscarcod.TabIndex = 11;
             // 
             // dtgalumnos
             // 
+            this.dtgalumnos.BackgroundColor = System.Drawing.Color.DimGray;
             this.dtgalumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgalumnos.Location = new System.Drawing.Point(12, 345);
+            this.dtgalumnos.Location = new System.Drawing.Point(14, 281);
             this.dtgalumnos.Name = "dtgalumnos";
-            this.dtgalumnos.Size = new System.Drawing.Size(341, 201);
+            this.dtgalumnos.Size = new System.Drawing.Size(351, 282);
             this.dtgalumnos.TabIndex = 12;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(129, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(168, 19);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Registro de Alumnos";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(494, 591);
+            this.BackColor = System.Drawing.Color.DimGray;
+            this.ClientSize = new System.Drawing.Size(689, 591);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dtgalumnos);
             this.Controls.Add(this.txtBuscarcod);
             this.Controls.Add(this.lblbuscarcod);
@@ -202,6 +215,7 @@
         private System.Windows.Forms.Label lblbuscarcod;
         private System.Windows.Forms.TextBox txtBuscarcod;
         private System.Windows.Forms.DataGridView dtgalumnos;
+        private System.Windows.Forms.Label label1;
     }
 }
 
